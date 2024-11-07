@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamPhish Information</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240910/pngtree-digital-data-and-binary-code-background-with-close-up-of-computer-image_16158474.jpg'); /* Ganti dengan URL gambar background Anda */
+            background-size: cover;
+            background-position: center;
+            animation: fadeIn 1.5s ease-in;
+            color: #f8f9fa;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Animasi fade in untuk seluruh halaman */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+
+        .container {
+            background-color: #2a2a2a;
+            padding: 40px;
+            max-width: 700px;
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #61dafb;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info {
+            margin-bottom: 30px;
+            padding-left: 10px;
+        }
+
+        .info p {
+            font-size: 16px;
+            margin: 8px 0;
+            color: #d1d1d1;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #f1f1f1;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #61dafb;
+            padding-bottom: 5px;
+        }
+
+        .command, .example {
+            background-color: #3a3a3a;
+            padding: 18px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 14px;
+            color: #d1d1d1;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .example {
+            border-left: 5px solid #61dafb;
+        }
+
+        .command {
+            border-left: 5px solid #e67e22;
+        }
+
+        .instructions {
+            margin: 20px 0;
+            padding-left: 10px;
+        }
+
+        .instructions p {
+            font-size: 16px;
+            color: #d1d1d1;
+            margin: 8px 0;
+        }
+
+        .instructions p span {
+            font-weight: 600;
+            color: #61dafb;
+        }
+
+        .instructions ul {
+            list-style-type: none;
+            margin: 10px 0 0 0;
+            padding: 0;
+        }
+
+        .instructions ul li {
+            font-size: 16px;
+            margin: 5px 0;
+            color: #f8f9fa;
+        }
+
+        .important-info {
+            background-color: #353535;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #e0e0e0;
+            border-left: 5px solid #e67e22;
+        }
+        
+        .yt a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+
+        .contact {
+            margin-top: 40px;
+            padding-left: 10px;
+        }
+
+        .contact p {
+            font-size: 16px;
+            color: #d1d1d1;
+            margin: 8px 0;
+        }
+
+        .contact a {
+            color: #61dafb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            text-align: center;
+            color: #868e96;
+        }
+
+        .footer a {
+            color: #868e96;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #61dafb;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .info p, .contact p {
+                font-size: 14px;
+            }
+
+            .command, .example {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .command, .example {
+                font-size: 10px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>CamPhisher</h1>
+
+        <div class="info">
+            <p><strong>IDP:</strong> 40010</p>
+            <p><strong>Version:</strong> 4.0..0</p>
+            <p><strong>Code Version:</strong> V4.0</p>
+            <p><strong>Developer:</strong> JustLiuzz</p>
+        </div>
+
+        <h2>Penjelasan tentang CamPhisher</h2>
+        
+        <h3><strong><i># Apa itu CamPhish???</i></strong></h3>
+        <div class="important-info">
+            <p>CamPhish adalah suatu script untuk mengambil gambar dari kamera depan ponsel target atau kamera web PC hanya dengan mengirimkan tautan.</p>
+        </div>
+        <br>
+        <h3><strong><i># Bagaimana mekanisme yang di gunakan CamPhish</i></strong></h3>
+        <div class="important-info">
+          <p>CamPhish adalah teknik untuk mengambil gambar kamera depan ponsel atau webcam PC target. CamPhish menghosting situs web palsu di server PHP bawaan dan menggunakan ngrok & serveo untuk menghasilkan tautan yang akan kami teruskan</p>
+        </div>
+        <br>
+        <h3><strong><i># Apa aja sih Fitur / opsi pilihannya?...</i></strong></h3>
+        <div class="important-info">
+          <p>Dalam alat ini saya menambahkan dua templat halaman web otomatis untuk target yang terlibat di halaman web untuk mendapatkan lebih banyak gambar kamera.</p>
+        </div>
+        <div class="instructions">
+          <h5>| Opsi pilihan ada 3 jenis web phising yaitu:</h5>
+        </div>
+        <div class="command">
+          <ul>
+            <li>Festival Wishing</li>
+            <li>Live YouTube TV</li>
+            <li>Online Meeting [beta version]</li>
+          </ul>
+        </div>
+        <div class="instructions">
+          <h5>| Fitur yang di sediakan adalah..</h5>
+        </div>
+        <div class="command">
+          <ul>
+            <li>memotret target dari kamera depan</li>
+            <li>memberikan informasi browser yang di gunakan target</li>
+            <li>memberikan longtitude dan latitude atau coordinat target berada</li>
+            <li>memberikan alamat ip address handphone target, yang dapat di gunakan untuk menyadap whatsapp target</li>
+          </ul>
+        </div>
+        <br>
+          <h3><strong><i># Telah di test di platfrom berikut</i></strong></h3>
+        <div class="command">
+          <ul>
+            <li>Kali Linux</li>
+            <li>Termux</li>
+            <li>MacOS</li>
+            <li>Ubuntu</li>
+            <li>Parrot Sec OS</li>
+          </ul>
+        </div>
+        <br>
+        <h3><stong><i># Installasi dan requirements</i></stong></h3>
+        <div class="important-info">
+          <p>Script ini memerlukan PHP untuk webserver, SSH atau tautan serveo. Pertama jalankan perintah berikut di terminal Anda</p>
+        </div>
+        <br>
+        <h5>•Command:</h5>
+        <div class="command">
+            $ apt update && apt upgrade <br>$ apt-get -y install php openssh git wget
+        </div>
+        <h6>| Untuk update package dan install requirements di software Ubuntu dll</h6>
+        <br> <h5>•Untuk Termux bisa gunakan command berikut..</h5>
+        <div class="command">
+          $ pkg update && pkg upgrade <br>$ pkg install php <br>$ pkg install openssh <br>$ pkg install git <br>$ pkg install wget
+        </div>
+        <br><h5>•Bisa juga di gabung agar memginstall semua requirements sekaligus dengan command seperti berikut..</h5>
+        <div class="command">
+          $ pkg update && pkg upgrade && pkg install php && pkg install openssh && pkg install git && pkg install wget
+        </div>
+        <br><h3><strong><i># Bagaimana cara menjalankan scriptnya??</i></strong></h3>
+        <br><h5>•Untuk Menjalankan script bisa gunakan command Berikut..</h5>
+        <div class="command">
+          $ cd /sdcard/Liuzz-CamPhish <br>$ bash camphish.sh
+        </div>
+        <br><h3><strong><i>#Bagaimana cara mendapatkan authtoken??</i></strong></h3>
+        
+        <div class="important-info">
+            <p>pergi ke google atau chrome lalu ketik ngrok authtoken, setelah itu login ke ngrok lalu cari ngrok authtoken, dan buat authtoken nya lalu salin dan tempel di terminal</p>
+        </div>
+        <br><h5>•jika anda menggunakan serveo maka buka tab terminal baru dan masukan command berikut</h5>
+        <div class="command">
+          $ ssh -R 80:host lokal:3000 serveo.net
+        </div>
+        <h6>| setelah memasukan command berikut setelahnya akan muncul alamat ip, salin alamat ip tersebut dan tempel di terminal</h6>
+        
+       <div class="yt">
+         <h2>Script Here</h2>
+         <h4>•chat gw kalo link download eror</h4>
+        <h5><strong>Contact Me:</strong> <a href="https://wa.me/6282245186794?text=minta%20Scriptnya%20bang..." target="_blank">Chat me</a></h5>
+        </div>
+        <br>
+        <h4><strong>•Download Script</strong></h4>
+        <div class="yt">
+            <h5><strong>Download:</strong> <a href="https://shorturl.at/L1XyF" target="_blank">Download</a></h5>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/6282245186794" target="_blank">JustLiuzz</a></p>
+            <p><strong>Github:</strong> <a href="https://github.com/YanzzMD" target="_blank">My_Github</a></p>
+            <p><strong>Repository:</strong> <a href="https://github.com/YanzzMD/Secret-" target="_blank">Repository</a></p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Liuzz-Camphish | Developed by <a href="https://wa.me/6282245186794" target="_blank">JustLiuzz</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
